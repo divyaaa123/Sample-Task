@@ -1,0 +1,144 @@
+body{
+background-color: #f7f7e8;
+margin: 0px;
+font-family: 'Sen', sans-serif;
+}
+
+.flex-container {
+    margin: 50px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f7f7e8;
+}
+.box{
+    width: 50%;
+}
+ 
+.cover-image{
+    width: 70%;
+    height: 400px;
+    margin:30px 0px 10px 70px ;
+}  
+.cover{
+   display: flex;
+   flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-around;
+ margin: 0px 0px 30px 70px;
+ width: 70%;
+}
+.cover > img{
+   height: 60px;
+   width: 17%;
+
+}
+.text-side{
+    padding-top: 30px;
+}
+.title{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+}
+a , .dispatched, .review{
+    color: #4a4a48;
+    
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 30px 0px;
+    background-color: white;
+    padding: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.feature{
+    width: 20%;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+.description{
+    line-height: 1.5;
+    font-weight: 500;
+    color: #4a4a48;
+    padding-right: 50px;
+}
+.intro{
+    font-weight: 600;
+    color: #4a4a48;
+}
+.fa-star{
+    color: #9fe6a0;
+}
+.green{
+    color: #9fe6a0;
+}
+button{
+    width: 30%;
+    height: 8%;
+    border: 0.5px solid black;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 500;
+}
+button:hover{
+    opacity: 50%;
+}
+.cart{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+
+}
+.wishlist{
+    background-color: white;
+    color: black;
+}
+.icon{
+    color: darkslategrey;
+   padding-right: 10px;
+   padding-top: 10px;
+   font-size: 1.3em;
+}
+.align{
+    padding-left: 35px;
+    opacity: 70%;
+}
+.h4{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.payment{
+    margin-left: 70px;
+}
+@media (max-width: 700px){
+    body{
+        text-align: center;
+    }
+    .box{
+        width: 100%;
+    }
+    .feature{
+        width: 100%;
+    }
+    .cover{
+        margin: auto;
+    }
+    .cover-image{
+        width: 70%;
+        height: 300px;
+        margin: auto;
+    }
+    .flex-container{
+        margin: 20px 20px;
+    }
+    .payment{
+        margin: auto;
+    }
+}
